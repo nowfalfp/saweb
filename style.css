@@ -1,0 +1,101 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light grey background */
+    color: #333; /* Dark grey text color */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+header {
+    background-color: #4b0082; /* Dark purple header background */
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e5f2ff; /* Light blue on hover */
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.logo img {
+    width: 300px; /* Increased logo size */
+    height: auto;
+}
+
+main {
+    padding: 20px 0;
+}
+
+section {
+    background-color: #fff; /* White section background */
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+section h2 {
+    color: #4b0082; /* Dark purple heading color */
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #4b0082; /* Dark purple footer background */
+    padding: 20px 0;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links li a {
+    text-decoration: none;
+    color: #fff; /* White text color */
+}
+
+.social-links li a:hover {
+    color: #e5f2ff; /* Light blue on hover */
+}
